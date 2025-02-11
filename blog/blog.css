@@ -26,6 +26,7 @@ body{
    border-radius: 20px;
    background-color: #FFFFFF;
    border-radius: 1rem;
+   position: relative;
    
    
 }
@@ -40,7 +41,7 @@ body{
  font-family: "Poppins", sans-serif;
  font-size: 1.5rem;
  font-weight: 500;
- margin-top: 2rem;
+ 
  margin-left: 2rem;
  max-width: 300px;
 }
@@ -61,11 +62,16 @@ body{
    left: 0;
    height: auto;
    width: 100%;
+   
 }
 .info{
    font-family: "Poppins", serif;
    font-size: 1rem;
    font-weight: 600;
+}
+.img-container{
+   position: relative;
+   
 }
 
 .info-title{
@@ -82,10 +88,6 @@ figure{
    padding-bottom: 2rem; 
 }
 
-.img-container{
-   position: relative;
-   
-}
 
 .img-info{
    border-radius: 100%;
